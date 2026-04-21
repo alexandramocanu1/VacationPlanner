@@ -8,3 +8,12 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+-keep class com.facebook.react.** { *; }
+-keep class com.facebook.hermes.** { *; }
+-keep class com.swmansion.reanimated.** { *; }
+-keep class com.swmansion.gesturehandler.** { *; }
+-keep class com.th3rdwave.safeareacontext.** { *; }
+-keep class com.reactnativecommunity.asyncstorage.** { *; }
+-keep class com.reactnativecommunity.webview.** { *; }
+-dontwarn com.facebook.react.**
